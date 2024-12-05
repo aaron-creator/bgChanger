@@ -24,12 +24,14 @@ function App() {
             <button
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
               style={{ backgroundColor: "green" }}
+              onClick={()=>{setColor("green")}}
             >
               Green
             </button>
             <button
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
               style={{ backgroundColor: "blue" }}
+              onClick={()=>{setColor("blue")}}
             >
               Blue
             </button>
@@ -37,6 +39,7 @@ function App() {
             <button
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
               style={{ backgroundColor: "Yellow" }}
+              onClick={()=>{setColor("yellow")}}
             >
               Yellow
             </button>
