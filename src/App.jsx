@@ -22,22 +22,22 @@ function App() {
             </button>
             <button
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-              style={{ backgroundColor: "red" }}
+              style={{ backgroundColor: "green" }}
             >
-              
+              Green
             </button>
             <button
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-              style={{ backgroundColor: "red" }}
+              style={{ backgroundColor: "blue" }}
             >
-              Red
+              Blue
             </button>
 
             <button
               className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
-              style={{ backgroundColor: "red" }}
+              style={{ backgroundColor: "Yellow" }}
             >
-              Red
+              Yellow
             </button>
           </div>
         </div>
